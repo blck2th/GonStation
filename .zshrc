@@ -1,3 +1,5 @@
+export PATH="/opt/homebrew/bin:$PATH"  # For Apple Silicon
+
 # ~/.zshrc - Custom ZSH Configuration for Captain Blck2th
 # Fetch Weather
 WEATHER=$(curl -s 'wttr.in/?format=3' || echo "Weather unavailable")
